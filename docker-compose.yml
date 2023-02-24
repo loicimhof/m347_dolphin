@@ -1,0 +1,7 @@
+version: "3"
+services:
+  dolphin:
+    container_name: dolphin
+    build: .
+    ports:
+      - "8181:80"
